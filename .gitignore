@@ -8,6 +8,16 @@ build/
 roms/*.ch8
 roms/*.sc8
 roms/**/*.ch8
+roms/*.gb
+roms/**/*.gb
+
+# 第三方二进制库 / Vendored binaries (re-download locally; don't commit)
+*.dll
+*.a
+chip8/SDL3/
+
+# 进化/记忆系统（本地私人记录，含绝对路径，不入库）/ Evolution memory
+.evolve/
 
 # IDE / 编辑器
 .vscode/
